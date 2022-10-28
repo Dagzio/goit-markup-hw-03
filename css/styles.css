@@ -239,6 +239,7 @@ img {
 
 .team-image {
   margin-bottom: var(--margin-item);
+  min-width: 270px;
 }
 
 .team-card-content {
@@ -318,6 +319,10 @@ img {
   flex-basis: calc(100% / 3 - 60px);
   margin-right: var(--margin-item);
   margin-bottom: var(--margin-item);
+}
+
+.project-image {
+  min-width: 370px;
 }
 
 .project-content {
