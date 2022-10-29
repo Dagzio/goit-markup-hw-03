@@ -226,12 +226,11 @@ img {
 
 .team-list {
   display: flex;
-  margin-right: calc(-1 * var(--margin-item));
+  gap: var(--margin-item);
 }
 
 .team-item {
   flex-basis: calc((100% - 90px) / 4);
-  margin-right: var(--margin-item);
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -244,6 +243,7 @@ img {
 
 .team-card-content {
   text-align: center;
+  padding-bottom: var(--margin-item);
 }
 
 .team-subtitle {
@@ -256,7 +256,6 @@ img {
   color: var(--main-color);
 }
 .team-description {
-  margin-bottom: var(--margin-item);
   font-size: 16px;
   line-height: 0.8;
   text-align: center;
@@ -312,13 +311,11 @@ img {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * var(--margin-item));
+  gap: var(--margin-item);
 }
 
 .project-item {
   flex-basis: calc((100% - 60px) / 3);
-  margin-right: var(--margin-item);
-  margin-bottom: var(--margin-item);
 }
 
 .project-content {
