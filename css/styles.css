@@ -300,9 +300,6 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-}
-
-.filter-item {
   margin-bottom: 50px;
 }
 
